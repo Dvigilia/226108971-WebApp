@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>links</h2>
+    <ul>
+        <li>
+            <a class ="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class ="nav-item">
+            <a class="nav-link"  href="#">About us</a>
+        </li>
+        <li class="na-item">
+            <a class="nav-link"  href="#">Contact</a>
+        </li>
+    </ul>
+    <section class="dropdown-menu">
+        <h2>Forms</h2>
+        <form class="px-4 py-3">
+            <section class="mb-3">
+                <label for="exampleName1"  class = "form-label">Username:</label>
+                <input type="email" class="form-control" id="exampleName1" placeholder="Username">
+            </section>
+            <section class="mb-3">
+                <label for="dropdownpassword1" class="form-label" >Password :</label>
+                <input type="password" class="form-control" id="dropdownpassword1" placeholder="Password">
+            </section>
+        </form>
+        <h2>Gender</h2>
+        <section class="form-check form-check-inline">    
+            <input class="form-check-input" type="radio" name="Gender" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Male  </label>
+        </section>
+        <section class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Gender" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Female</label>
+        </section>
+        <section col-12>
+            <section class="form-check form-check-reverse">
+                <p>Do you agree with the terms and conditions of this site?</p>
+                <input class="form-check-input" type="checkbox" value="" id="Reversecheck1" required>
+                <label class="form-check-label" for="Reversecheck1">I agree</label>
+            </section>
+            <section>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </section>
+        </section>
+        <h2>Tables</h2>
+        <section>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">John</th>
+                        <td>25</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jane</th>
+                        <td>30</td>
+                        <td>los Angeles</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+        
+    </section>
+    
+</body>
+</html>
+
