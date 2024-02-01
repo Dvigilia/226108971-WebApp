@@ -7,13 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="Css-v2.css">
 </head>
-<style>
-</style>
 <body>
-    <nav>
-    <li><a href="#info">About us</a></li>
-    <li><a href="#login">Home</a></li>
-    <li><a href="#playlist">Links</a></nav></li>
+    
+    <a href="#info">About us</a>
+    <a href="#login">Home</a>
+    <a href="#media">Media</a>
     <hr>
     <figure>
     <a href="https://www.youtube.com/watch?v=F7o0upORtCw"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCm2vlGuax0Sax70l5N819DAWnRcaIyAImTQ&usqp=CAU" alt="image here" width="240" height="180"></a>
@@ -25,11 +23,12 @@
             <form class="px-4 py-3">
                 <div class="mb-3">
                     <label for="samplename" class="form-label">Username:</label>
-                    <input type="Email" class="form-control" id="samplename" placeholder="Username">
+                    <input type="Email" class="form-control" id="samplename" placeholder="Username" pattern="(?=.8\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain one capital letter one lowercase one special character and atleast 8 characters" required>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password :</label>
-                    <input for="Password" class="form-control" id="password" placeholder="Password">
+                    <input for="Password" class="form-control" id="password" placeholder="Password" pattern="Must contain one capital letter one lowercase one special character and atleast 8 characters" required>
+                    <ul><input type="submit"></ul>
                 </div>
             </form>
         </ul>
@@ -37,19 +36,22 @@
             <h2><a name="info">Gender</a></h2>
             <form class="px-4 px-3">
                 <nav class="form-check form-check-inline"></nav>
-                <input class="form-check-input" type="radio" name="Gender" id="inlineRadio1" value="option1">
+                <input class="form-check-input" type="radio" name="Gender" id="inlineRadio1" value="option1" required>
                 <label class="form-check-label" for="inlineRadio1">Male</label>
-                <input class="form-check-input" type="radio" name="Gender" id="inlineRadio2" value="option2">
+                <input class="form-check-input" type="radio" name="Gender" id="inlineRadio2" value="option2" required>
                 <label class="form-check-label" for="inlineRadio2">Female</label>
+                <input type="submit">
             </form>
         </div>
+        <hr>
         <div>
-            <h2>Term and Conditions</h2>
+            <p>The <abbr title="University of the Cordilleras">UC</abbr> was earlier known, pioneered in tertiary education in the mountain highlands of the Cordillera region amidst devastation in and around Baguio City after the Second World War.</p>
+            <h2><a name="info">Term and Conditions</h2></a>
             <div class="form-check form-check-reverse">
                 <p>Do you agree with the terms and conditions for the use of this site?</p>
-                <input class="form-check-input" type="checkbox" value="" id="Reversecheck1" required></input>
+                <input class="form-check-input" type="checkbox" value="option1" id="Reversecheck1" required></input>
                 <label class="form-check-label" for="Reversecheck1">Yes</label>
-                <div><button class="btn btn-primary" type="submit">submit</button></div>
+                <input type="submit">
             </div>
             <hr>
             <header>Tables</header>
@@ -78,7 +80,7 @@
             </div>
             <hr>
             <footer>
-                <h2>Media</h2>
+                <li><a name="media">Media</a></li>
                 <video id="video1" controls width="320" height="240"></video>
                 <source for="video1" src="https://www.youtube.com/watch?v=-HjpL-Ns6_A&list=RDMMF7o0upORtCw&index=26">
                 <audio controls autoplay>

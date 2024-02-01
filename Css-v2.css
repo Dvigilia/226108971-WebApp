@@ -1,21 +1,9 @@
-footer{
-    align-items: first baseline;
-}
-h2{
+body {
     text-align: center;
-    text-decoration: dashed;
 }
-header{
-    text-align: center;
-    text-size-adjust: 50 px;
-}
-div class="mb-3" {
+table {
     align-items: center;
 }
-input{
-    align-items: center;
+form {
+    border: 12px;
 }
-img{
-    border-radius: 0vmax;
-}
-label{align-content: center;}
