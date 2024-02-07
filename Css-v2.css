@@ -1,9 +1,17 @@
 body {
     text-align: center;
+    background-color: darkslategrey;
+    color: white
 }
-table {
+figure{
+    border-radius: 0px;
+    border: 1px solid;
+    border-color: white;
+}
+table, th, td{
+    border: 1px solid;
     align-items: center;
 }
-form {
-    border: 12px;
+footer{
+    border: ;
 }
