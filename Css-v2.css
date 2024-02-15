@@ -6,7 +6,7 @@ body {
 figure{
     border-radius: 0px;
     border: 1px solid;
-    border-color: white;
+    border-color: black
 }
 table, th, td{
     border: 1px solid;
@@ -14,4 +14,7 @@ table, th, td{
 }
 footer{
     border: ;
+}
+br{
+    color: black;
 }
