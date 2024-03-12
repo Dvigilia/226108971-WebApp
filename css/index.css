@@ -1,0 +1,14 @@
+body{
+    color: aquamarine;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+ol{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+}
+.favcolor{
+    color: brown;
+}
